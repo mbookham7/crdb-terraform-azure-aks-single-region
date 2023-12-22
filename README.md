@@ -1,6 +1,6 @@
-# CockroachDB  - Terraform Managed Azure AKS Multi-region Database
+# CockroachDB  - Terraform Managed Azure AKS Single-region Database
 
-This repo is the Terraform code to deploy a single CockroachDB Cluster into three AKS clusters into three separate regions.
+This repo is the Terraform code to deploy a single CockroachDB Cluster into a AKS cluster into one region.
 
 1. Login in to Azure from the CLI with the `az login` command.
 
