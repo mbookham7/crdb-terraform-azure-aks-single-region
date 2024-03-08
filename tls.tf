@@ -164,7 +164,7 @@ resource "tls_locally_signed_cert" "node_cert_region_1" {
 
 resource "local_file" "node_cert_region_1_cert" {
   content  = tls_locally_signed_cert.node_cert_region_1.cert_pem
-  filename = "${path.module}/cert/${var.location_1}/node.crt"
+  filename = "${path.module}/certs/${var.location_1}/node.crt"
 }
 
 # Upload Certificates as secrets to kubernetes
