@@ -1,6 +1,8 @@
 provider "azurerm" {
   features {}
 
+  skip_provider_registration = true
+
 #  subscription_id   = "<azure_subscription_id>"
 #  tenant_id         = "<azure_subscription_tenant_id>"
 #  client_id         = "<service_principal_appid>"
